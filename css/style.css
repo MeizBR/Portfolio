@@ -9779,7 +9779,7 @@ textarea.form-control {
 }
 
 .internships {
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-size: 20px;
   border: 3px solid #28a745;
@@ -9792,4 +9792,14 @@ textarea.form-control {
 
 .card-container h5 {
   color: #28a745;
+}
+
+.social-media {
+  border: 2px solid whitesmoke;
+  width: 70%;
+}
+
+.social-media button a {
+  font-size: 25px;
+  color: green;
 }
