@@ -9782,7 +9782,7 @@ textarea.form-control {
   width: 90%;
   margin: auto;
   font-size: 20px;
-  border: 3px solid #28a745;
+  border: 2px solid #28a745;
   border-radius: 5px;
 }
 
@@ -9802,4 +9802,22 @@ textarea.form-control {
 .social-media button a {
   font-size: 25px;
   color: green;
+}
+
+#x-pr {
+  color: #28a745;
+}
+
+#y {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#pr-br {
+  border: 2px solid #28a745;
+  border-radius: 5px;
+}
+
+#pr-br img {
+  height: 250px;
 }
