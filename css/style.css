@@ -9800,7 +9800,7 @@ textarea.form-control {
 }
 
 .social-media button a {
-  font-size: 25px;
+  font-size: 22px;
   color: green;
 }
 
@@ -9820,4 +9820,23 @@ textarea.form-control {
 
 #pr-br img {
   height: 250px;
+}
+
+#cert-img {
+  width: 150px;
+  height: 120px;
+  margin: auto;
+}
+
+#cert-title {
+  text-align: center;
+  color: steelblue;
+}
+
+#lan {
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  border: 2px solid silver;
+  border-radius: 10px;
 }
