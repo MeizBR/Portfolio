@@ -9836,7 +9836,24 @@ textarea.form-control {
 #lan {
   margin: auto;
   width: 90%;
-  height: 200px;
-  border: 2px solid silver;
+  height: 285px;
+  border: 2px solid #28a745;
   border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.progress-container h4 {
+  margin-right: 20px;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.progress {
+  flex-grow: 1;
 }
