@@ -368,6 +368,10 @@ mark,
   padding-left: 0;
   list-style: none; }
 
+.list-unstyled li:hover {
+  color: white;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none; }
@@ -9870,8 +9874,9 @@ textarea.form-control {
 #card {
   width: 70%;
   margin: auto;
-  border: 2px solid black;
-  animation: borderColorChange 3s infinite;
+  border: 3px solid black;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  animation: borderColorChange 5s infinite;
 }
 
 @keyframes borderColorChange {
@@ -9880,6 +9885,9 @@ textarea.form-control {
   }
   25% {
     border-color: red;
+  }
+  35% {
+    border-color: orange;
   }
   50% {
     border-color: blue;
