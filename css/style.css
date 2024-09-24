@@ -9840,7 +9840,7 @@ textarea.form-control {
 #lan {
   margin: auto;
   width: 90%;
-  height: 285px;
+  height: 375px;
   border: 2px solid #28a745;
   border-radius: 10px;
   background-color: whitesmoke;
@@ -9904,8 +9904,20 @@ textarea.form-control {
   margin: 70px 0 0 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+#video-container h1 {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  color: crimson;
+  text-decoration: underline;
+}
+
 #video-container video {
   margin: 0 25%;
+  width: 50%;
+  height: 500px;
   border: 3px solid black;
   border-radius: 15px;
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
