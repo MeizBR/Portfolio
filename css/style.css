@@ -9944,3 +9944,11 @@ textarea.form-control {
 #scrollBtn:hover {
   background-color: #333; /* Darker background on hover */
 }
+
+.mySlides {display:none;}
+
+.mySlides img {
+  border: 2px solid steelblue;
+  border-radius: 15px;
+  height: 800px;
+}
