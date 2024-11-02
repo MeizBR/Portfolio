@@ -9952,3 +9952,21 @@ textarea.form-control {
   border-radius: 15px;
   height: 800px;
 }
+
+.sm-container {
+  width: 30%;
+  margin: 40px auto;
+  border: steelblue 2px solid;
+  border-radius: 10px;
+}
+
+.sm-container button {
+  font-size: 30px;
+  width: 24.5%;
+  background-color: whitesmoke;
+}
+
+.sm-container button:hover {
+  background-color: whitesmoke;
+  color: steelblue;
+}
